@@ -241,7 +241,7 @@ fun FormularioCita(
     Column(
         modifier = modifier
             .fillMaxSize()
-            .imePadding() // Empuja el formulario hacia arriba cuando se abre el teclado
+            .imePadding()
             .padding(16.dp)
             .verticalScroll(rememberScrollState()),
         verticalArrangement = Arrangement.spacedBy(12.dp)
