@@ -281,7 +281,6 @@ fun FormularioCita(
                         DropdownMenuItem(
                             text = { Text("${doc.nombre_completo} (${doc.especialidad_nombre})") },
                             onClick = {
-                                // Guardamos el formato final que incluye la especialidad médica
                                 viewModel.medicoInput = "${doc.nombre_completo} (${doc.especialidad_nombre})"
                                 expandedDropdown = false
                             }
